@@ -26,7 +26,7 @@ will reflect the zuul service and the event will contains eventId and buildId wi
 
 Pip:
 
-    pip install splunk_handler_zuul
+    pip install acme_splunk_handler_zuul
 
 Manual:
 
