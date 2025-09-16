@@ -17,7 +17,7 @@ def lambda_handler(event, context):
 
 ## Introduction
 
-This package is based on the splunk_handler of [Zach Tylor](https://github.com/zach-taylor/splunk_handler).
+This package is based on the splunk_handler of [Zach Tylor](https://github.com/zach-taylor/splunk_handler) and [lidall](https://github.com/lidall/splunk_handler).
 The adjustment in this package enables json format in event that sent to spunk. Additionally, it is designed to
 suit logging of [zuul components](https://zuul-ci.org/docs/zuul/discussion/components.html). Thus, the source-type
 will reflect the zuul service and the event will contains eventId and buildId within zuul log.
